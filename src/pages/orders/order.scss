@@ -1,0 +1,52 @@
+.orders{
+    display: flex;
+    justify-content: center;
+
+    .container{
+        width: 1400px;
+        padding:4rem 0;
+
+        .title{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            button{
+                background-color:#1dbf73;
+                color: white !important;
+                font-weight: 500;
+                border: none;
+                cursor: pointer;
+                padding: 1rem;
+                text-decoration: none !important;
+            }
+        }
+        table{
+            width: 100%;
+            tr{
+                height: 4.5rem;
+
+                th{
+                    text-align: left;
+                }
+
+                td{
+                    .img{
+                        width: 50px;
+                        height: 25px;
+                        object-fit: cover; 
+                    }
+                    .delete{
+                        width: 20px;
+                        cursor: pointer;
+                    }
+                }
+
+                &:nth-child(even){
+                    background-color:#1dbf730f;
+                }
+            }
+            
+        }
+    }
+}

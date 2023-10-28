@@ -1,0 +1,88 @@
+.featured{
+
+   height: 600px;
+   display: flex;
+   justify-content: center;
+   background-color: #013914;
+   color: white;
+    .container{
+            width: 1400px;
+            display: flex;
+            align-items: center;
+
+            .left{
+               display: flex;
+               flex-direction: column;
+               gap: 30px;
+
+               h1{
+                font-size: 3rem;
+
+                i{
+                    font-weight: 300;
+                }
+               }
+
+               .search{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                background-color: white;
+                border-radius: .5rem;
+                gap: 1rem;
+                 .searchInput{
+                    display: flex;
+                    align-items: center;
+                    gap: .5rem;
+
+                    img{
+                        width: 20px;
+                        height: 20px;
+                        margin: 1rem;
+                    }
+                    input{
+                        border:none;
+                        outline: none;
+                        height: 100%;
+                        font-size: 1rem;
+                        width: 100%;
+                    }
+                 }
+                 button{
+                    border: none;
+                    width: 120px;
+                    height: 55px;
+                    background-color: #1dbf73;
+                    color: white;
+                    cursor: pointer;
+                }
+               }
+                
+               .populer{
+                display: flex;
+                align-items: center;
+                gap: 1rem;
+                  span{
+
+                  }
+                  button{
+                    color: white;
+                    background-color: transparent;
+                    border: 1px solid white;
+                    padding: .5rem .8rem;
+                    border-radius: .5rem;
+                    font-size: 1rem;
+                    cursor: pointer;
+                  }
+               }
+            }
+
+            .right{
+               height: 100%;
+
+               img{
+                height: 100%;
+               }
+            }
+    }
+}
